@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <!-- AREA DO MENU -->
+    <div id="caixa_menu">
+        <div id="menu" class="img_pok">
+            <div class="item_menu">
+                Início
+            </div>
+            <div class="pesquisar">
+                <input type="text" id="searchInput" placeholder="Pesquisar por nome do Pokémon">
+                <button onclick="search()">Pesquisar</button>
+            </div>
+            <div>
+                <img class="pokebola" src="./imgs/pokebola-removebg-preview.png" alt="pokebola">
+            </div>
+        </div>
+    </div>
+
+    <div id="header" class="back_image">
+        <div id="caixa_header" class="center">
+        </div>
+    </div>
+    <!-- AREA DOS PERSONAGENS -->
+    <div id="caixa_empresa" class="center">
+        <div class="titulo">
+            <span>PERSONAGENS</span>
+        </div>
+    </div>
+
+    <div id="characters-container" class="container">
+        <div class="card">
+            <div class="content"></div>
+        </div>
+    </div>
+    <script src="./js/api-perso.js"></script>
+
+</body>
+
+    <div id="footer">
+        <div id="caixa_footer" class="center">
+
+          <a href="https://github.com/rafildzz">  &copy; Rafael Reis &</a> <a href="https://github.com/matheussantos020"> Matheus Oliveira</a>
+            
+            
+         </div>
+    </div>
+</html>
